@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -P dt6
+#PBS -q normal
+#PBS -l ncpus=4
+#PBS -l mem=32GB
+#PBS -l walltime=2:00:00
+#PBS -l storage=gdata/xp65+gdata/dt6+scratch/w97+gdata/w97
+#PBS -N time_under_drought
+#PBS -j oe
+#PBS -o /g/data/dt6/cb6525/discovery/scripts/logs/
+
+# Select the variable and the experiment
+export EXPERIMENT="ssp370"        # historical | ssp126 | ssp370
+export VARIABLE="pr"              # mrro | mrso | pr
+
+# Load the Singularity‑wrapped analysis3 environment
+module use /g/data/xp65/public/modules
+module load conda/analysis3
+
+# Move to the directory where the job was submitted
+cd /g/data/dt6/cb6525/discovery/
+
+# Run your script
+python time_under_drought_NARCLIM.py

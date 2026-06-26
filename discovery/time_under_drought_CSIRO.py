@@ -14,8 +14,8 @@ import cartopy.feature as cfeature
 # --- Config ---
 base = "/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics"
 dataset = "CORDEX_CSIRO"           # ['BARPA', 'CMIP6', 'CORDEX_CSIRO', 'CORDEX_Qld', 'NARCLIM']
-experiment = "ssp126"   # ['historical', 'ssp126', 'ssp370', 'ssp585']
-variable = "pr"             # ['mrro', 'mrso', 'pr']
+experiment = os.environ["EXPERIMENT"]
+variable   = os.environ["VARIABLE"]
 drought_threshold = 'Perc_15'
 baseline = 'Baseline_1970_2005'
 scale = "Scale_3"           # ['Scale_3', 'Scale_12']
