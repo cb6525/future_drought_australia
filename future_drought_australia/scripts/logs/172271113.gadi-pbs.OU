@@ -1,0 +1,22 @@
+Loading conda/analysis3-26.05
+  Loading requirement: singularity
+Traceback (most recent call last):
+  File "/g/data/dt6/cb6525/discovery/time_under_drought_Qld.py", line 28, in <module>
+    for gcm_dir in sorted(path.iterdir()):
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/pathlib.py", line 1056, in iterdir
+    for name in os.listdir(self):
+                ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/CORDEX_Qld/historical/mrso/Perc_15/Baseline_1970_2005/Scale_3'
+
+======================================================================================
+                  Resource Usage on 2026-06-25 15:33:56:
+   Job Id:             172271113.gadi-pbs
+   Project:            dt6
+   Exit Status:        1
+   Service Units:      0.04
+   NCPUs Requested:    4                   CPU Time Used: 00:00:04        
+   Memory Requested:   32.0GB                Memory Used: 578.95MB        
+   Walltime Requested: 02:00:00            Walltime Used: 00:00:09        
+   JobFS Requested:    100.0MB                JobFS Used: 0B              
+======================================================================================

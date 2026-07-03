@@ -1,0 +1,56 @@
+Loading conda/analysis3-26.05
+  Loading requirement: singularity
+/g/data/dt6/cb6525/discovery/time_under_drought.py:59: FutureWarning: In a future version of xarray the default value for join will change from join='outer' to join='exact'. This change will result in the following ValueError: cannot be aligned with join='exact' because index/labels/sizes are not equal along these coordinates (dimensions): 'lon' ('lon',) The recommendation is to set join explicitly for this case.
+  time_under_drought_all = xr.concat(list(time_under_drought.values()),dim="forcing_gcm"
+/g/data/dt6/cb6525/discovery/time_under_drought.py:59: FutureWarning: In a future version of xarray the default value for join will change from join='outer' to join='exact'. This change will result in the following ValueError: cannot be aligned with join='exact' because index/labels/sizes are not equal along these coordinates (dimensions): 'lat' ('lat',) The recommendation is to set join explicitly for this case.
+  time_under_drought_all = xr.concat(list(time_under_drought.values()),dim="forcing_gcm"
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/dask/array/core.py:5198: PerformanceWarning: Increasing number of chunks by factor of 16
+  result = blockwise(
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/dask/array/core.py:5198: PerformanceWarning: Increasing number of chunks by factor of 16
+  result = blockwise(
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/dask/array/core.py:5198: PerformanceWarning: Increasing number of chunks by factor of 16
+  result = blockwise(
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/dask/array/core.py:5198: PerformanceWarning: Increasing number of chunks by factor of 16
+  result = blockwise(
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/dask/array/core.py:5198: PerformanceWarning: Increasing number of chunks by factor of 16
+  result = blockwise(
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/dask/array/core.py:5198: PerformanceWarning: Increasing number of chunks by factor of 16
+  result = blockwise(
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/dask/array/core.py:5198: PerformanceWarning: Increasing number of chunks by factor of 16
+  result = blockwise(
+/g/data/xp65/public/apps/med_conda/envs/analysis3-26.05/lib/python3.12/site-packages/dask/array/core.py:5198: PerformanceWarning: Increasing number of chunks by factor of 16
+  result = blockwise(
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/BARPA/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/ACCESS-CM2
+Loaded: ACCESS-CM2
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/BARPA/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/CESM2
+Warning: no .nc file found in CESM2
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/BARPA/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/CMCC-CMCC-ESM2
+Loaded: CMCC-CMCC-ESM2
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/BARPA/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/CSIRO-ACCESS-ESM1-5
+Loaded: CSIRO-ACCESS-ESM1-5
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/BARPA/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/CSIRO-ARCCSS-ACCESS-CM2
+Loaded: CSIRO-ARCCSS-ACCESS-CM2
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/BARPA/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/EC-Earth-Consortium-EC-Earth3
+Loaded: EC-Earth-Consortium-EC-Earth3
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/BARPA/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/EC-Earth3
+Loaded: EC-Earth3
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/BARPA/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/MPI-ESM1-2-HR
+Loaded: MPI-ESM1-2-HR
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/BARPA/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/MPI-M-MPI-ESM1-2-HR
+Loaded: MPI-M-MPI-ESM1-2-HR
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/BARPA/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/NCAR-CESM2
+Loaded: NCAR-CESM2
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/BARPA/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/NCC-NorESM2-MM
+Loaded: NCC-NorESM2-MM
+
+======================================================================================
+                  Resource Usage on 2026-06-23 17:16:20:
+   Job Id:             172111047.gadi-pbs
+   Project:            dt6
+   Exit Status:        0
+   Service Units:      0.71
+   NCPUs Requested:    4                   CPU Time Used: 00:02:58        
+   Memory Requested:   32.0GB                Memory Used: 2.96GB          
+   Walltime Requested: 02:00:00            Walltime Used: 00:02:39        
+   JobFS Requested:    100.0MB                JobFS Used: 37.0B           
+======================================================================================

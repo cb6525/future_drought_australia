@@ -1,0 +1,28 @@
+Loading conda/analysis3-26.05
+  Loading requirement: singularity
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/CORDEX_CSIRO/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/ACCESS-CM2
+Loaded: ACCESS-CM2
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/CORDEX_CSIRO/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/ACCESS-ESM1-5
+Loaded: ACCESS-ESM1-5
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/CORDEX_CSIRO/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/CESM2
+Loaded: CESM2
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/CORDEX_CSIRO/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/CMCC-ESM2
+Loaded: CMCC-ESM2
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/CORDEX_CSIRO/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/CNRM-ESM2-1
+Loaded: CNRM-ESM2-1
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/CORDEX_CSIRO/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/EC-Earth3
+Loaded: EC-Earth3
+/g/data/w97/amu561/CABLE_AWRA_comparison/Drought_metrics/CORDEX_CSIRO/historical/pr/Perc_15/Baseline_1970_2005/Scale_3/NorESM2-MM
+Loaded: NorESM2-MM
+
+======================================================================================
+                  Resource Usage on 2026-06-25 10:54:12:
+   Job Id:             172245047.gadi-pbs
+   Project:            dt6
+   Exit Status:        0
+   Service Units:      0.55
+   NCPUs Requested:    4                   CPU Time Used: 00:02:13        
+   Memory Requested:   32.0GB                Memory Used: 5.05GB          
+   Walltime Requested: 02:00:00            Walltime Used: 00:02:04        
+   JobFS Requested:    100.0MB                JobFS Used: 37.0B           
+======================================================================================

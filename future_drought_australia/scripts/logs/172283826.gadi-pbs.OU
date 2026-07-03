@@ -1,0 +1,36 @@
+Loading conda/analysis3-26.05
+  Loading requirement: singularity
+Loaded: ACCESS-CM2_r4i1p1f1
+Loaded: ACCESS-ESM1-5_r6i1p1f1
+Loaded: CESM2_r11i1p1f1
+Loaded: CMCC-ESM2_r1i1p1f1
+Loaded: CNRM-ESM2-1_r1i1p1f2
+Loaded: EC-Earth3_r1i1p1f1
+Loaded: NorESM2-MM_r1i1p1f1
+Loaded: ACCESS-CM2_r4i1p1f1
+Loaded: ACCESS-ESM1-5_r6i1p1f1
+Loaded: CESM2_r11i1p1f1
+Loaded: CMCC-ESM2_r1i1p1f1
+Loaded: CNRM-ESM2-1_r1i1p1f2
+Loaded: EC-Earth3_r1i1p1f1
+Loaded: NorESM2-MM_r1i1p1f1
+CESM2_r11i1p1f1
+CMCC-ESM2_r1i1p1f1
+EC-Earth3_r1i1p1f1
+NorESM2-MM_r1i1p1f1
+CESM2_r11i1p1f1
+CMCC-ESM2_r1i1p1f1
+EC-Earth3_r1i1p1f1
+NorESM2-MM_r1i1p1f1
+
+======================================================================================
+                  Resource Usage on 2026-06-25 17:53:15:
+   Job Id:             172283826.gadi-pbs
+   Project:            dt6
+   Exit Status:        0
+   Service Units:      1.10
+   NCPUs Requested:    4                   CPU Time Used: 00:05:00        
+   Memory Requested:   32.0GB                Memory Used: 12.29GB         
+   Walltime Requested: 02:00:00            Walltime Used: 00:04:08        
+   JobFS Requested:    100.0MB                JobFS Used: 0B              
+======================================================================================
