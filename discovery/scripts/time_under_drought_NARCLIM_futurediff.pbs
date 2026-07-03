@@ -10,8 +10,8 @@
 #PBS -o /g/data/dt6/cb6525/discovery/scripts/logs/
 
 # Select the variable and the experiment
-export VARIABLE="mrro"              # mrro | mrso | pr
-export EXPERIMENT_FUT="ssp370"
+export VARIABLE="mrso"              # mrro | mrso | pr
+export EXPERIMENT_FUT="ssp126"
 
 # Load the Singularity‑wrapped analysis3 environment
 module use /g/data/xp65/public/modules
